@@ -4,7 +4,7 @@
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
     <UseWindowsForms>true</UseWindowsForms>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Authors>Rick Brewster</Authors>
     <Company>dotPDN LLC</Company>
     <Description>This package includes types and controls that were removed from System.Windows.Forms in .NET Core 3.x / .NET 5. Specifically this includes Menu and ContextMenu which work fine as long as you don't need the Control.ContextMenu or Form.Menu properties.
