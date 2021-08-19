@@ -15,7 +15,9 @@ The code in this package was disassembled using ILSpy from the .NET Framework 4.
     <PackageProjectUrl>https://github.com/paintdotnet/System.Windows.Forms.Legacy</PackageProjectUrl>
     <RepositoryUrl>https://github.com/paintdotnet/System.Windows.Forms.Legacy</RepositoryUrl>
     <PackageTags>System.Windows.Forms;WinForms;Legacy;Compatibility;ContextMenu;Menu;</PackageTags>
-    <PackageReleaseNotes>Initial release. Not thoroughly tested.</PackageReleaseNotes>
+    <PackageReleaseNotes>Initial release. Not thoroughly tested, but seems to work!</PackageReleaseNotes>
+    <PackageId>System.Windows.Forms.Legacy.Unofficial</PackageId>
+    <Product>System.Windows.Forms.Legacy.Unofficial</Product>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
