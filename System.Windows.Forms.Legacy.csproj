@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.1.0</Version>
+    <Authors>Rick Brewster</Authors>
+    <Company>dotPDN LLC</Company>
+    <Description>This package includes types and controls that were removed from System.Windows.Forms in .NET Core 3.x / .NET 5. Specifically this includes Menu and ContextMenu which work fine as long as you don't need the Control.ContextMenu or Form.Menu properties.
+
+The code in this package was disassembled using ILSpy from the .NET Framework 4.8 DLLs on a Windows 10 21H1 system.</Description>
+    <Copyright>The code in the package is Copyright © Microsoft Corporation</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/paintdotnet/System.Windows.Forms.Legacy</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/paintdotnet/System.Windows.Forms.Legacy</RepositoryUrl>
+    <PackageTags>System.Windows.Forms;WinForms;Legacy;Compatibility;ContextMenu;Menu;</PackageTags>
+    <PackageReleaseNotes>Initial release. Not thoroughly tested.</PackageReleaseNotes>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\CompareInliningBenchmarks\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
