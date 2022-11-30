@@ -17,6 +17,8 @@ The code in this package was disassembled using ILSpy from the .NET Framework 4.
     <PackageTags>System.Windows.Forms;WinForms;Legacy;Compatibility;ContextMenu;Menu;</PackageTags>
     <PackageId>Unofficial.System.Windows.Forms.Legacy</PackageId>
     <Product>Unofficial.System.Windows.Forms.Legacy</Product>
+    <Title>Unofficial.System.Windows.Forms.Legacy</Title>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
@@ -28,6 +30,12 @@ The code in this package was disassembled using ILSpy from the .NET Framework 4.
     <None Include="..\CompareInliningBenchmarks\LICENSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
 </Project>
