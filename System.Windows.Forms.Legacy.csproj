@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
     <UseWindowsForms>true</UseWindowsForms>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.1.1</Version>
+    <Version>1.0.0</Version>
     <Authors>Rick Brewster</Authors>
     <Company>dotPDN LLC</Company>
     <Description>This package includes types and controls that were removed from System.Windows.Forms in .NET Core 3.x / .NET 5. Specifically this includes Menu and ContextMenu which work fine as long as you don't need the Control.ContextMenu or Form.Menu properties.
@@ -15,7 +15,6 @@ The code in this package was disassembled using ILSpy from the .NET Framework 4.
     <PackageProjectUrl>https://github.com/paintdotnet/System.Windows.Forms.Legacy</PackageProjectUrl>
     <RepositoryUrl>https://github.com/paintdotnet/System.Windows.Forms.Legacy</RepositoryUrl>
     <PackageTags>System.Windows.Forms;WinForms;Legacy;Compatibility;ContextMenu;Menu;</PackageTags>
-    <PackageReleaseNotes>Initial release. Not thoroughly tested, but seems to work!</PackageReleaseNotes>
     <PackageId>Unofficial.System.Windows.Forms.Legacy</PackageId>
     <Product>Unofficial.System.Windows.Forms.Legacy</Product>
   </PropertyGroup>
