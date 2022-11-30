@@ -19,6 +19,7 @@ The code in this package was disassembled using ILSpy from the .NET Framework 4.
     <Product>Unofficial.System.Windows.Forms.Legacy</Product>
     <Title>Unofficial.System.Windows.Forms.Legacy</Title>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>Updating to 1.0.0 stable. This package has been used by Paint.NET v4.3+ since its release in September 2021, and has done a great job for mitigating plugin compatibility issues.</PackageReleaseNotes>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
