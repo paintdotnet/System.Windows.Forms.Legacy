@@ -28,7 +28,7 @@ The code in this package was disassembled using ILSpy from the .NET Framework 4.
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\CompareInliningBenchmarks\LICENSE">
+    <None Include="LICENSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
