@@ -883,6 +883,14 @@ namespace System.Windows.Forms
             {
                 DestroyMenuItems();
             }
+            else if ((uint)change == 4)
+            {
+                DestroyMenuItems();
+                CreateMenuItems();
+                foreach (MenuItem item in MenuItems) {
+                    item.UpdateMenuItem(true);
+                }
+            }
         }
 
         private IntPtr MatchKeyToMenuItem(int startItem, char key, MenuItemKeyComparer comparer)
